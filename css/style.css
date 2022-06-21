@@ -65,3 +65,10 @@ footer>div>a {
     position: absolute;
     right: 150px;
 }
+/* задаем фон в файле about.html */
+.blue {
+    background-color: aqua;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
