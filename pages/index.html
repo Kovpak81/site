@@ -5,31 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя первая веб-страница</title>
-    <link rel="stylesheet" href="../css/ForHeaderFooter.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-        <div>
-            <img src="../images/logo-header.svg" alt="Skillfactory">
-            <p>Задание 4.9.</p>
-            <ul class="header">
-                <li><a href="#">Главная</a></li>
-                <li><a href="about.html">О нас</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
+        <div class="wrapper">
+            <div class="navigation">
+                <img src="../images/logo-header.svg" alt="Skillfactory">
+                <p>Задание 4.9.</p>
+                <ul class="nav">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
         </div>
         <br>
     </header>
     <main>
-        <h1>Моя первая веб-страница</h1>
-        <h2>Про меня</h2>
-        <p>Меня зовут Сергей. Я работаю <strong>маркетологом</strong>. Решил получше узнать смежную профессию, чтобы разобраться как устроен веб.</p>
-        <p>Живу в Питере. Люблю кататься на велосипеде.</p>
-        <h2>Чему я хочу научиться</h2>
-        <p>На <em>этом</em> курсе я хотел бы научиться создавать сайты с нуля.</p>
+        <div class="wrapper">
+            <div class="baner">
+                <h1>Моя веб-страница</h1> 
+                <h2>Про меня</h2>
+                <p>Меня зовут Сергей. Я работаю <a href="https://ru.wikipedia.org/wiki/%D0%A3%D1%81%D1%81%D1%83%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B5_%D1%81%D1%83%D0%B2%D0%BE%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5_%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%83%D1%87%D0%B8%D0%BB%D0%B8%D1%89%D0%B5" target="_blank"><strong>на интересной работе</strong></a>. Решил получше узнать профессию программиста, чтобы разобраться как устроен веб.</p>
+                <p>Живу в Приморском крае. Люблю ставить перед собой задачи и получать удовольствие от достижения результата)))</p>
+                <h2>Чему я хочу научиться</h2>
+                <p>На <em>этом</em> курсе я хотел бы научиться создавать сайты с нуля.</p>
+            </div>
+        </div>
     </main>
     <footer>
-        <span>&copy;&nbsp;Skillfactory</span>
+        <div class="wrapper">
+            <a href="https://skillfactory.ru/" target="_blank">&copy;&nbsp;Skillfactory</a>
+        </div>
     </footer>
 </body>
 </html>

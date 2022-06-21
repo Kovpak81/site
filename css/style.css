@@ -1,0 +1,67 @@
+/* шрифт для всего контента */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* общие стили для всех 3-х разделов, общие отступы и ширина страницы */
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* стили для первого раздела (головы) постановка в линию рисунка, абзаца и ссылок. Внешний цвет головы.  */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: blue;
+    padding: 20px;
+}
+/* стилизация функций списка. Убираем точки списка. Задаем жирность текста и делаем буквы заглавными */
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* стилизация ячеек списка, ширина и отступы внешние и внутренние */
+.nav>li {
+    padding-left: 50px;
+    margin-left: 50px;
+    width: 100px;
+}
+/* стилизация ссылок при наведении */
+.nav>li a:visited, .nav>li a:link {
+    background-color: blue;
+    color: white;
+}
+.nav>li a:hover {
+    background-color: aliceblue;
+    color: blue;
+}
+/* стилизация ссылок, убираем нижнюю линию и делаем бордюр */
+.nav>li>a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 20px;
+}
+/* стилизация второго раздела. делаем фон рисунком */
+.baner {
+    background-image: url(../images/number.jpg);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+/* стилизуем ссылку во второй части (делаем читаемой по цвету) */
+.baner>p>a {
+    color: aqua;
+}
+/* убираем вправо подвал */
+footer>div>a {
+    position: absolute;
+    right: 150px;
+}
