@@ -47,6 +47,7 @@ body {
     text-decoration: none;
     border: 1px solid black;
     padding: 20px;
+    border-radius: 10px;
 }
 /* стилизация второго раздела. делаем фон рисунком */
 .baner {
@@ -72,6 +73,7 @@ footer>div>a {
     padding-bottom: 30px;
     padding-left: 50px;
 }
+/* при активной странице в меню головы подсвечивается ссылка (кнопка) желтым */
 #main {
     background: rgb(207, 243, 7);
 }
